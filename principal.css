@@ -1,0 +1,187 @@
+ /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #93463E;
+ font-family: 'Playfair Display', serif;
+}
+
+main {
+  width: 95%;
+  height: 1860px;
+  margin: 0 auto;
+  background-color: #35120F;
+  z-index: 4;
+}
+
+
+
+
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #6A2015;
+  position: relative;
+  z-index: 5;
+}
+
+
+/* Menú de navegación */
+nav { 
+    width: 35%;
+    height: 50px;
+    background-color: whitesmoke;
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+ margin-bottom: 0;
+ margin-left: 0;
+    text-align: center;
+}
+
+nav a {
+  color:#e0211c;
+  position: relative;
+  font-weight: bold;
+  line-height: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+.menu {
+    width: 100%;
+    overflow: hidden;
+    padding: 1px 0;
+}
+
+#logo {
+    float: left;
+    height: 70px;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 17px;
+    position: relative;
+}
+
+#menu ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+#menu li {
+    float: left;
+    margin-left: 35px;
+}
+
+#menu a {
+   color: black;
+   text-decoration: none;
+   font-weight: 600;
+   padding: 12px;
+   font-size: 17px;
+}
+
+#menu a:hover {
+    color: #93463E;
+    text-decoration: underline;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+
+section { 
+    width: 100%;
+    height: 650px;
+    float: left;
+}
+
+
+footer { 
+    width: 100%;
+    height: 60px;
+    background-color: #6A2015;
+    text-align: center;
+    color: white;
+    line-height: 60px; /* Centrado vertical */
+    clear: both;
+}
+
+
+/* Contenido principal sin flex */
+.primero {
+  overflow: hidden; /* para contener los floats */
+  margin: 40px;
+}
+
+.primero img {
+  float: left;
+  width: 500px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.primero .texto {
+  float: left;
+  width: 600px;
+  color: white;
+}
+
+.primero .texto h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.primero .texto p {
+  font-size: 15px;
+}
+
+/* Ingredientes sin flex */
+.ingredientes {
+  margin: 50px 50px 0 90px;
+  color: white;
+}
+
+.ingredientes h1 {
+  margin-bottom: 70px;
+}
+
+.ingredientes p {
+  width: 600px;
+}
+
+/* Paso a paso */
+.pasoapaso {
+  margin: 50px 50px 0 90px;
+  color: white;
+ 
+}
+
+.pasoapaso h1 {
+  margin-bottom: 70px;
+}
+
+.pasoapaso p {
+  max-width: 600px;
+}
+
+/* Video */
+.video1 {
+  width: 100%;
+  text-align: center;
+  margin: 60px auto 0 auto;
+}
+
+.video1 h2 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
